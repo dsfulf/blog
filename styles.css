@@ -1,0 +1,402 @@
+@font-face {
+	font-family: BankGothic;
+	src: url("fonts/bgothl.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Gil Sans MT;
+	src: url("fonts/gilsans.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root{
+	--col_gold: #C99700;
+	--col_sunshine: #FAE053;
+	--col_urgent: #DC4A26;
+	--col_seismic: #BA0C2F;
+	--col_sky: #71C5E8;
+	--col_energy: #009CDE;
+	--col_ocean: #004F71;
+	--col_explore: #7F3035;
+	--col_leaves: #8EDD65;
+	--col_tress: #509E2f;
+	--col_sage: #708573;
+	--col_discover: #008578;
+	--col_desert: #A39382;
+	--col_fossil: #776E64;
+	--col_umber: #61462B;
+	--col_dirt: #463C36;
+}
+
+html {
+  height: 100%;
+
+}
+
+body {
+  background: white;
+  color: black;
+	margin: 0;
+  font-family: 'Open Sans', 'Gil Sans MT', sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+	text-justify: inter-word;
+	width: 90vw;
+	max-width: 1280px;
+  margin: 0 auto;
+	padding: 0 20px;
+  text-align: center;
+  clear: both;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+p {
+	margin: 10px 0 0 0;
+}
+
+strong {
+	font-family: 'Exo 2', sans-serif;
+	/* font-style: italic; */
+}
+
+.header {
+	display: table;
+	width: inherit;
+	max-width: inherit;
+	position: fixed;
+	background: white;
+	margin: 0;
+  padding: 10px 0;
+	height: 68px; /* 68 + 10 + 10 + 2 = 90px */
+  clear: both;
+	border-bottom: 2px solid #61462B;
+	z-index: 1;
+}
+
+.wrap {
+	display: table;
+	width: inherit;
+	max-width: inherit;
+	min-height: 100%;
+}
+
+.section {
+	display: block;
+	max-height: inherit;
+	width: inherit;
+	max-width: inherit;
+	padding-top: 25px;
+	text-align: justify;
+	text-justify: inter-word;
+	text-decoration: none;
+}
+
+.footer {
+	width: inherit;
+	max-width: inherit;
+	vertical-align: bottom;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	line-height: 2em;
+	border-top: 2px solid #61462B;
+  z-index: 1;
+}
+
+.footer h3 {
+	margin: 0;
+	padding: inherit;
+	font-size: 16pt;
+}
+
+.branding {
+	font-family: 'Orbitron', 'BankGothic', 'sans-serif';
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-variant: small-caps;
+	font-size: 13pt;
+}
+
+
+#mainlogo {
+  float: left;
+    /* border-right: 2px solid black; */
+}
+
+#mainlinkbar {
+	float: right;
+}
+
+#footer_spacer {
+	bottom: 36;
+	border-top: 0;
+  z-index: 1;
+	height: 10px;
+}
+
+#header_spacer {
+	height: 90px;
+}
+
+#about {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #004F71;
+}
+
+.logo h1 {
+	font-family: inherit;
+  font-weight: inherit;
+	letter-spacing: inherit;
+	font-variant: inherit;
+  font-size: 32pt;
+	margin-top: -.7rem;
+  margin-bottom: 0;
+	text-align: left;
+}
+
+.logo h2 {
+	font-family: inherit;
+  font-weight: inherit;
+	letter-spacing: inherit;
+	font-variant: inherit;
+  font-size: 24pt;
+	margin-top: -.8em;
+	margin-bottom: -.5em;
+	text-align: left;
+}
+
+.logo a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.logo a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.linkbar {
+	margin: 0;
+	padding: 0;
+}
+
+.linkbar h3 {
+	font-family: inherit;
+  font-weight: inherit;
+	letter-spacing: inherit;
+	line-height: 12pt;
+	font-variant: inherit;
+	margin: inherit;
+	padding: inherit;
+	color: white;
+	font-size: 18pt;
+}
+
+.linkbar ul {
+  list-style-type: none;
+	margin: inherit;
+	padding: inherit;
+  overflow: hidden;
+  background-color: #C99700;
+}
+
+.linkbar li {
+	float: left;
+}
+
+.linkbar li a {
+	display: table;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	padding: 25px 15px;
+	text-decoration: none;
+	border-left	: 5px solid White
+}
+
+.linkbar li a:hover {
+	background-color: DarkGoldenRod;
+}
+
+.section h1, h2, h3, h4, h5 {
+	font-family: 'Exo 2', sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+
+}
+
+.section h3, h4, h5 {
+	font-size: 12pt;
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.section em {
+  font-style: italic;
+  color: firebrick;
+}
+
+.section h3 strong, h4 strong, h5 strong {
+  font-weight: strong;
+}
+
+.section a {
+	color: inherit;
+  text-decoration: inherit;
+}
+
+.section a:hover {
+	background-color: GhostWhite;
+}
+
+.section a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.sectionbar ul {
+	list-style-type: none;
+  margin: 0;
+	padding-left: 0;
+	display: block;
+  background-color: White;
+}
+
+.sectionbar li {
+	width: 100%;
+}
+
+.sectionbar li a {
+	min-width: calc(100% - 2px);
+	color: inherit;
+	text-decoration: inherit;
+	display: block;
+	border: 1px solid White;
+}
+
+.sectionbar li a:hover {
+	background-color: #F1F1F1;
+	border: 1px solid #BA0C2F;
+}
+
+.sectionbar li a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+
+/* INDEX.HTML */
+.summary {
+	display: block;
+	padding: 10px;
+	overflow: hidden;
+	min-height: 310 px;
+}
+
+.summary_text {
+	display: table-cell;
+}
+
+.summary_img {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.summary_img img {
+	vertical-align: middle;
+	/* float: right; */
+	padding-left: 10px;
+}
+
+
+/*RESOURCES.HTML */
+.reference {
+	display: table;
+	padding: 10px;
+	overflow: hidden;
+  width: calc(100% - 20px);
+}
+
+.reference_text {
+	display: block;
+	margin: 0;
+	padding: 0;
+  max-width: 1020px;
+}
+
+.icon_container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.icon_helper {
+	vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.icon_container img {
+	vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* NOTEBOOK EXAMPLES */
+.notebook_header {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.notebook_header_text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.download_icon {
+	padding: 0;
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.download_icon img {
+	height: 25px;
+	padding: 2px 1px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ipynb {
+	width: inherit;
+	max-width: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.ipynb iframe, .ipynb embed {
+	width: inherit;
+	max-width: inherit;
+	height: calc(100vh - (90px + 110px + 50px));
+	border-top: 1px solid #004F71;
+	margin-top: 8px;
+	padding-top: 2px;
+	/* header height + sectionbar height + footer height */
+}
