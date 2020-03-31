@@ -8,7 +8,6 @@ dependencies:
   - certifi=2019.11.28
   - entrypoints=0.3
   - flake8=3.7.9
-  - icc_rt=2019.0.0
   - intel-openmp=2020.0
   - mccabe=0.6.1
   - mkl=2020.0
@@ -31,7 +30,4 @@ dependencies:
   - sqlite=3.31.1
   - typed-ast=1.4.1
   - typing_extensions=3.7.4.1
-  - vc=14.1
-  - vs2015_runtime=14.16.27012
   - wheel=0.34.2
-  - wincertstore=0.2
