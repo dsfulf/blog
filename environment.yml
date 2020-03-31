@@ -6,9 +6,17 @@ dependencies:
   - blas=1.0
   - ca-certificates=2020.1.1
   - certifi=2019.11.28
+  - cycler=0.10.0
   - entrypoints=0.3
   - flake8=3.7.9
+  - freetype=2.9.1
+  - icu=58.2
   - intel-openmp=2020.0
+  - jpeg=9b
+  - kiwisolver=1.0.1
+  - libpng=1.6.37
+  - matplotlib=3.1.3
+  - matplotlib-base=3.1.3
   - mccabe=0.6.1
   - mkl=2020.0
   - mkl-service=2.3.0
@@ -23,11 +31,19 @@ dependencies:
   - psutil=5.7.0
   - pycodestyle=2.5.0
   - pyflakes=2.1.1
+  - pyparsing=2.4.6
+  - pyqt=5.9.2
   - python=3.8.2
+  - python-dateutil=2.8.1
+  - qt=5.9.7
   - scipy=1.4.1
   - setuptools=46.1.3
+  - sip=4.19.13
   - six=1.14.0
   - sqlite=3.31.1
+  - tornado=6.0.4
   - typed-ast=1.4.1
   - typing_extensions=3.7.4.1
   - wheel=0.34.2
+  - zlib=1.2.11
+prefix: C:\Users\dfulford\miniconda3\envs\mini
