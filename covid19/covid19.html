@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Hierarchial-Bayesian-model-for-COVID-19-Data-Set">Hierarchial Bayesian model for COVID-19 Data Set<a class="anchor-link" href="#Hierarchial-Bayesian-model-for-COVID-19-Data-Set">&#182;</a></h1><p>Resources:</p>
+<h1 id="Hierarchical-Bayesian-model-for-COVID-19-Data-Set">Hierarchical Bayesian model for COVID-19 Data Set<a class="anchor-link" href="#Hierarchical-Bayesian-model-for-COVID-19-Data-Set">&#182;</a></h1><p>Resources:</p>
 <ul>
 <li>Data: <a href="https://data.world/covid-19-data-resource-hub/covid-19-case-counts">Coronavirus (COVID-19) Case Counts</a> maintained by Johns Hopkins and Tableau Inc.</li>
 <li>Modeling package: <a href="https://docs.pymc.io/">PyMC3</a>, a probabilstic programming library offering variational inference and MCMC.</li>
@@ -13097,12 +13097,19 @@ div#notebook {
 <p><strong>Forecast of Deaths:</strong><br>
 <img src="img/Deaths%20Forecast.png" alt="Deaths Forecast"></p>
 <p><strong>Posterior of Death Rate:</strong><br>
-<img src="img/Death%20Rate%20Hist.png" alt="Death Rate Posterior"></p>
+<img src="img/Death%20Rate%20Posterior.png" alt="Death Rate Posterior"></p>
 <p><strong>Posterior of Total Cases:</strong>
 <img src="img/Total%20Cases%20Posterior.png" alt="Confirmed Cases Posterior"></p>
 <p><strong>Posterior of Total Deaths:</strong>
 <img src="img/Total%20Deaths%20Posterior.png" alt="Total Deaths Posterior"></p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Program">Program<a class="anchor-link" href="#Program">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -13255,9 +13262,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># df = df2.copy()</span>
-<span class="c1"># df = df[df[&#39;Date&#39;] &lt;= pd.Timestamp(&#39;4/5/2020&#39;)]</span>
-<span class="n">time</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Days&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">time</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Days&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">date</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">cases</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Confirmed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">deaths</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Deaths&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
